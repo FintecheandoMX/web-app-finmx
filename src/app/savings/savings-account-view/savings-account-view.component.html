@@ -36,6 +36,10 @@
             <table class="account-overview">
               <tbody>
                 <tr>
+                  <td>{{"labels.inputs.External Id" | translate}}</td>
+                  <td class="account-overview">{{savingsAccountData.externalId}}</td>
+                </tr>
+                <tr>
                   <td>{{"labels.inputs.Current Balance" | translate }}</td>
                   <td class="r-amount">{{savingsAccountData.summary.accountBalance | currency:currency.code:'symbol-narrow':'1.2-2'}}</td>
                 </tr>
